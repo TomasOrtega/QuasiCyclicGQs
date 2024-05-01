@@ -1,7 +1,7 @@
 # Quasi Cyclic Representation of Classical Generalized Quadrangles
 
 This repository contains the Quasi Cyclic (QC) representation of classical [Generalized Quadrangles](https://en.wikipedia.org/wiki/Generalized_quadrangle) (GQ). 
-These have been obtained using the methods described in "Practical Implementation of Geometric Quasi-Cyclic LDPC Codes" by Simeon Michael Ball and Tomàs Ortega.
+These have been obtained using the methods described in "Practical Implementation of Geometric Quasi-Cyclic LDPC Codes" by Simeon Ball and Tomàs Ortega.
 See also [PCT/EP2023/062797](https://patentscope.wipo.int/search/en/detail.jsf?docId=WO2023218050&_cid=P11-LP8MC2-94041-1).
 
 Standard [.alist](https://www.inference.org.uk/mackay/codes/alist.html) files are provided for LDPC simulations.
