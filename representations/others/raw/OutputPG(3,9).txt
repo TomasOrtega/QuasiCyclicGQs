@@ -1,0 +1,18 @@
+The parity check matrix for PG(3,9) minus a spread is a 1b x 9b, where b is 820.
+
+The 1 coordinates of the first row of the circulants in the 1xq rep matrix is given by Hrep. The length of the code is 7380 and the check matrix has rank 
+819, so the full code has dimension 6561 and rate 0.8890243902439025
+
+There is a generator matrix for the subcode of the form (P | id) where P is quasi cyclic 8b x 1b matrix, whose first rows are in the matrix Pbin.  The subcode has dimension 6560 so the rate is 0.8888888888888888
+
+ Hrep is
+[ [ [ 108, 180, 222, 328, 420, 464, 475, 535, 542, 587 ], 
+      [ 27, 132, 160, 317, 323, 430, 476, 513, 606, 622 ], 
+      [ 26, 84, 410, 469, 594, 619, 673, 743, 760, 816 ], 
+      [ 121, 122, 125, 134, 161, 223, 242, 394, 428, 485 ], 
+      [ 30, 48, 77, 125, 295, 369, 379, 507, 618, 800 ], 
+      [ 245, 271, 286, 473, 522, 542, 673, 697, 711, 777 ], 
+      [ 98, 106, 321, 384, 406, 502, 578, 601, 784, 789 ], 
+      [ 69, 169, 201, 234, 295, 414, 435, 570, 613, 773 ], 
+      [ 78, 109, 286, 288, 339, 507, 597, 661, 736, 771 ] ] ]
+

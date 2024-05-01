@@ -1,0 +1,28 @@
+
+The parity check matrix for W(3,5) minus a spread is a 6b x 5b matrix,where b is 26.
+
+The 1 coordinates of the first row of the circulants in the (q+1)xq rep matrix is give\
+n by Hrep.
+
+The length of the code is 130 and the check matrix has rank 
+91, so the full code has dimension 39.
+
+There is a generator matrix for the subcode of the form (P | id) where P is quasi cycl\
+ic 1b x 4b matrix, whose first rows are in the matrix Pbin.
+
+The subcode has dimension 26 so the rate is 0.2.
+
+ Hrep is
+[ [ [  ], [ 15 ], [ 7, 23 ], [  ], [ 13, 22 ] ], 
+  [ [ 3, 23 ], [ 16 ], [  ], [ 11, 26 ], [  ] ], 
+  [ [ 4 ], [  ], [  ], [ 9, 10 ], [ 20, 25 ] ], 
+  [ [ 1, 23 ], [  ], [ 15 ], [  ], [ 3, 6 ] ], 
+  [ [  ], [ 2, 4 ], [ 16 ], [ 2, 9 ], [  ] ], 
+  [ [ 20 ], [ 6, 14 ], [ 3, 17 ], [  ], [  ] ] ]
+
+ Pbin is 
+[ [ [ 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 1, 0, 1, 0, 1, 1, 0, 1, 1, 0, 0, 0, 0 ], 
+      [ 1, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 1, 0, 0, 1, 0, 1, 0, 1, 0, 0, 1, 0, 0, 1, 1 ]
+        , [ 0, 1, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 
+          0, 1 ], [ 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 1, 0, 
+          0, 1, 0, 0 ] ] ]

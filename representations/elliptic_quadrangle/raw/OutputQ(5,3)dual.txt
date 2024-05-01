@@ -1,0 +1,26 @@
+
+The parity check matrix for the dual of Q(5,3) minus a spread is a 9b x 
+4b matrix, where b is 28.
+
+The 1 coordinates of the first row of the circulants in the q^2x(q+1) rep matrix is gi\
+ven by Hrep. The length of the code is 112 and the check matrix has rank 
+91, so the full code has dimension 21.
+
+The generator matrix for the code is given by Gbin,  where Gbin is quasi cyclic 1b x 
+4b matrix, whose first rows are in the matrix Gbin.
+
+The code has dimension 21 so the rate is 0.1875.
+
+ Hrep is
+[ [ [  ], [ 10 ], [ 27, 19 ], [ 17 ] ], [ [ 19, 13 ], [ 18 ], [ 3 ], [  ] ], 
+  [ [ 3 ], [ 10, 0 ], [ 4 ], [  ] ], [ [  ], [ 25, 24 ], [  ], [ 6, 1 ] ], 
+  [ [ 20, 16 ], [  ], [ 5 ], [ 13 ] ], [ [ 27 ], [ 21, 9 ], [  ], [ 22 ] ], 
+  [ [ 12 ], [ 14 ], [ 14, 12 ], [  ] ], [ [  ], [  ], [ 14, 11 ], [ 13, 0 ] ], 
+  [ [ 27, 18 ], [  ], [  ], [ 23, 12 ] ] ]
+ Gbin is 
+[ [ [ 1, 1, 1, 1, 1, 0, 1, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 1, 
+          0, 1 ], [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 
+          0, 0, 1, 1, 1, 1 ], 
+      [ 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 0, 1, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 1, 0, 1, 1, 
+          0, 1 ], [ 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 
+          0, 0, 0, 0, 0, 0 ] ] ]

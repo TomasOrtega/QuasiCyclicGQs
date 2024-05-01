@@ -1,0 +1,18 @@
+The parity check matrix for PG(3,11) minus a spread is a 1b x 11b, where b is 1464.
+
+The 1 coordinates of the first row of the circulants in the 1xq rep matrix is given by Hrep. The length of the code is 16104 and the check matrix has rank 1463, so the full code has dimension 14641 and rate 0.9091530054644809
+
+There is a generator matrix for the subcode of the form (P | id) where P is quasi cyclic 10b x 1b matrix, whose first rows are in the matrix Pbin.  The subcode has dimension 14640 so the rate is 0.9090909090909091
+
+ Hrep is
+[ [ [ 73, 270, 331, 563, 580, 587, 593, 663, 975, 1180, 1289, 1321 ], 
+      [ 23, 199, 384, 428, 562, 680, 787, 790, 988, 1096, 1212, 1451 ], 
+      [ 388, 430, 545, 580, 647, 728, 949, 1117, 1175, 1270, 1278, 1398 ], 
+      [ 59, 60, 477, 561, 738, 905, 1109, 1223, 1246, 1344, 1378, 1398 ], 
+      [ 70, 125, 193, 358, 367, 580, 601, 885, 950, 1157, 1159, 1430 ], 
+      [ 47, 97, 153, 241, 572, 620, 699, 962, 1014, 1161, 1347, 1398 ], 
+      [ 6, 102, 117, 298, 357, 362, 384, 437, 456, 722, 1013, 1335 ], 
+      [ 182, 495, 509, 535, 580, 987, 1024, 1116, 1178, 1217, 1435, 1464 ], 
+      [ 15, 291, 396, 967, 992, 1008, 1041, 1291, 1295, 1388, 1451, 1461 ], 
+      [ 1, 61, 118, 434, 871, 1004, 1042, 1214, 1245, 1257, 1376, 1387 ], 
+      [ 6, 88, 157, 452, 592, 639, 716, 782, 828, 918, 1118, 1383 ] ] ]
